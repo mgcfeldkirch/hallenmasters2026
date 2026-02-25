@@ -1,0 +1,125 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='refresh' content='30'>
+<title>Live Gesamtrangliste</title>
+<style>
+body{font-family:Arial;background:#f4f6f8;margin:0;padding:10px;}
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:15px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+.nav{display:flex;gap:10px;margin-bottom:15px;}
+.nav a{
+flex:1;
+text-align:center;
+padding:10px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+.blue{background:#1976d2;}
+.green{background:#2e7d32;}
+h1{font-size:22px;margin-bottom:5px;}
+h2{font-size:16px;color:#555;margin-top:0;margin-bottom:15px;}
+.table-wrap{overflow-x:auto;}
+table{
+width:100%;
+border-collapse:collapse;
+font-size:14px;
+min-width:600px;
+}
+th{
+background:#424242;
+color:white;
+padding:8px;
+text-align:center;
+}
+td{
+padding:6px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+.players-row td{
+font-size:11px !important;
+color:#555;
+padding:2px 8px 6px 8px;
+text-align:left;
+line-height:1.2;
+}
+.group-even{background:#ffffff;}
+.group-odd{background:#f7f7f7;}
+.update{
+margin-top:10px;
+font-size:12px;
+color:#666;
+}
+@media(max-width:700px){
+.players-row td{
+font-size:10px !important;
+padding:2px 6px 4px 6px;
+}
+}
+</style>
+</head>
+<body>
+<div class='container'>
+<div class='nav'>
+<a href='index.html' class='blue'>Turnierliste</a>
+<a href='gesamt.html' class='green'>Gesamtrangliste</a>
+<a href='runde1.html' class='blue'>Runde 1</a>
+<a href='runde2.html' class='blue'>Runde 2</a>
+<a href='runde3.html' class='blue'>Runde 3</a>
+</div>
+
+<h1>Live Gesamtrangliste</h1><h2>Hallenmasters 2026</h2><div class='table-wrap'>
+<table>
+<tr><th>Platz</th><th>Gruppe</th><th>Gruppenname</th><th>Punkte</th><th colspan='4'>Spieler</th></tr>
+<tr><td>1</td><td>Gruppe 1</td><td>Die Verwirrten</td><td><b>150</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Siegfried Zeh · Marcel Künz · Annalena Danereder · Armin Rachl</td><td></td></tr>
+<tr><td>2</td><td>Gruppe 2</td><td>Ohne Worte</td><td><b>145</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Alfred Moser · Oliver Neudert · Alfred Gruber · Herlinde Pazal</td><td></td></tr>
+<tr><td>3</td><td>Gruppe 3</td><td>Die Zufallsgolfer</td><td><b>141,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Susanne Goglione · Ferdinand Jagschitz · Ernst Lehmann · Uwe Pacher</td><td></td></tr>
+<tr><td>4</td><td>Gruppe 4</td><td>Die Internationalen</td><td><b>141</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Roman Jussel · Franz Lechner · Gina Jehle · Manuela Korper</td><td></td></tr>
+<tr><td>5</td><td>Gruppe 5</td><td>Die Halbtiroler</td><td><b>139,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Hermann Türtscher · Simone Ager · Burghard Jochum · Peter Lais</td><td></td></tr>
+<tr><td>6</td><td>Gruppe 6</td><td>Fifi und die 3 Musketiere</td><td><b>138</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Michel Pfister · Stefanie Emich · Hannes Riesch · Irmgard Marx</td><td></td></tr>
+<tr><td>7</td><td>Gruppe 7</td><td>Sternschnuppe</td><td><b>133</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Yannick Langer · Elfi Maria Borgogno · Helen Helfenstein · Cornelia Lais</td><td></td></tr>
+<tr><td>8</td><td>Gruppe 8</td><td></td><td><b>125</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Jürgen Juriatti · Fabian Künz · Mirko Alibabic · Alfred Nickerl</td><td></td></tr>
+<tr><td>9</td><td>Gruppe 9</td><td>Die Planlosen</td><td><b>123</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Stefan Emich · Peter Deml · Andreas Huber · Andreas Niedermeir</td><td></td></tr>
+<tr><td>10</td><td>Gruppe 10</td><td>Die Namenlosen</td><td><b>117,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Thomas Jooß · Viktor Langer · Alexandra Huber · Gisela Schweizer</td><td></td></tr>
+<tr><td>11</td><td>Gruppe 11</td><td>Die Unverbesserlichen</td><td><b>115</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Walter Ammann · Herbert Schweizer · Michael Frei · Clau Martin Spescha</td><td></td></tr>
+<tr><td>12</td><td>Gruppe 12</td><td></td><td><b>113,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Hermann Stenz · Christine Riesch · Birgit Krämer · Peter Graziadei</td><td></td></tr>
+<tr><td>13</td><td>Gruppe 13</td><td>Die Unverbesserlichen</td><td><b>111</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Daniela Pfister · Norbert Sturm · Norman Marogg · Alfons Caviezel</td><td></td></tr>
+<tr><td>14</td><td>Gruppe 14</td><td></td><td><b>110</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Marvin Hauri · Holger Lauble · Lukas Stahel · Konstantin Ruff</td><td></td></tr>
+<tr><td>15</td><td>Gruppe 15</td><td></td><td><b>109,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Nadine Nagele · Roland Schnyder · Bernd Hess · Alfons Driemel</td><td></td></tr>
+<tr><td>15</td><td>Gruppe 16</td><td></td><td><b>109,5</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Daniela Künz · Elmar Kessler · Siegfried Korper · Urs Graber</td><td></td></tr>
+<tr><td>16</td><td>Gruppe 17</td><td></td><td><b>94</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Martin Vonier · Walter Wildt · Alexander Selos · Rolf Kuhn</td><td></td></tr>
+<tr><td>17</td><td>Gruppe 18</td><td>Die Unsichtbaren</td><td><b>88</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Emilio Recla · Ursula Deml · Corinna Serfling · Michael Jordan</td><td></td></tr>
+<tr><td>18</td><td>Gruppe 19</td><td></td><td><b>76</b></td><td colspan='4'></td></tr>
+<tr class='players-row'><td></td><td colspan='6'>Thomas Schrettl · Heinz Löbel · Petra Moser-Schäppi · Alois Eberharter</td><td></td></tr>
+</table>
+</div>
+<div class='update'>Letztes Update: 25.02.2026 20:13:32</div></div></body></html>
